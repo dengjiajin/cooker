@@ -46,3 +46,19 @@
 - Update `.codex-memory/current.md` when conversations get long, the work becomes complex, the phase changes, or before ending the current thread.
 - If the work belongs to an active task, update that task's files as well.
 <!-- CODEX-MEMORY:END -->
+
+## Project Rules
+
+- Treat this project as a long-running, multi-session collaboration. At the start of each new session, read `AGENTS.md` first, then follow the `.codex-memory/` startup order defined above.
+- Use relevant skills when the task reaches the matching phase, especially structured planning/context persistence skills such as `planning-with-files` and the codex memory skills. Use Figma-related capabilities when visual architecture, flows, or UI structure need to be clarified.
+
+## Database Conventions
+
+- Core business tables should include explicit status fields where the business flow requires enable/disable or approval state management.
+- Use these audit fields by default in MySQL tables unless a specific table clearly does not need them:
+  - `creator` `varchar`
+  - `create_time` `datetime`
+  - `updater` `varchar`
+  - `update_time` `datetime`
+- Do not assume a global logical-delete field by default.
+- For deletion strategy, decide case by case with the user whether a table should use physical delete or a logical-delete field such as `is_del`.
