@@ -11,3 +11,9 @@
 - 将当前记忆与任务记忆改为中文
 - 确认技术栈，进入实现计划编写阶段
 
+## 2026-04-02
+
+- 新增本期功能点进度 JSON：`.codex-memory/tasks/active/home-service-foundation/feature_progress.json`
+- 更新项目文档总览，明确新会话读取顺序
+- 完成后管 Web UI 原型
+- 通过 `admin-web` 构建校验

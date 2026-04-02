@@ -1,0 +1,147 @@
+{
+  "task": "home-service-foundation",
+  "updated_at": "2026-04-02",
+  "rule": "false means not done, true means done",
+  "features": [
+    {
+      "id": "admin-ui-shell",
+      "name": "后管 UI 总体骨架",
+      "done": true
+    },
+    {
+      "id": "admin-login-ui",
+      "name": "后管登录页 UI",
+      "done": true
+    },
+    {
+      "id": "admin-dashboard-ui",
+      "name": "后管首页 UI",
+      "done": true
+    },
+    {
+      "id": "admin-user-list-ui",
+      "name": "后管用户列表 UI",
+      "done": true
+    },
+    {
+      "id": "admin-chef-list-ui",
+      "name": "后管厨师列表 UI",
+      "done": true
+    },
+    {
+      "id": "admin-approval-ui",
+      "name": "后管入驻审批 UI",
+      "done": true
+    },
+    {
+      "id": "admin-permissions-ui",
+      "name": "后管权限管理 UI",
+      "done": true
+    },
+    {
+      "id": "admin-profile-ui",
+      "name": "后管个人中心 UI",
+      "done": true
+    },
+    {
+      "id": "platform-backend-bootstrap",
+      "name": "平台后端底座初始化",
+      "done": false
+    },
+    {
+      "id": "admin-auth",
+      "name": "后管管理员登录",
+      "done": false
+    },
+    {
+      "id": "admin-rbac",
+      "name": "后管 RBAC 权限体系",
+      "done": false
+    },
+    {
+      "id": "admin-user-management",
+      "name": "后管用户列表与详情",
+      "done": false
+    },
+    {
+      "id": "admin-chef-management",
+      "name": "后管厨师列表与详情",
+      "done": false
+    },
+    {
+      "id": "admin-user-enable-disable",
+      "name": "后管用户启用/禁用与修改",
+      "done": false
+    },
+    {
+      "id": "admin-chef-enable-disable",
+      "name": "后管厨师启用/禁用与修改",
+      "done": false
+    },
+    {
+      "id": "admin-chef-approval",
+      "name": "后管厨师入驻审批",
+      "done": false
+    },
+    {
+      "id": "client-wx-login",
+      "name": "客户端微信登录",
+      "done": false
+    },
+    {
+      "id": "client-phone-auth",
+      "name": "客户端手机号授权登录",
+      "done": false
+    },
+    {
+      "id": "client-my-page",
+      "name": "客户端我的页面",
+      "done": false
+    },
+    {
+      "id": "client-chef-apply-entry",
+      "name": "客户端入驻申请入口",
+      "done": false
+    },
+    {
+      "id": "client-chef-apply-form",
+      "name": "客户端入驻申请表单",
+      "done": false
+    },
+    {
+      "id": "client-chef-apply-history",
+      "name": "客户端申请状态与历史时间线",
+      "done": false
+    },
+    {
+      "id": "chef-login",
+      "name": "厨师端手机号密码登录",
+      "done": false
+    },
+    {
+      "id": "chef-change-password",
+      "name": "厨师端首次改密",
+      "done": false
+    },
+    {
+      "id": "chef-profile",
+      "name": "厨师端个人中心",
+      "done": false
+    },
+    {
+      "id": "chef-status-view",
+      "name": "厨师端状态查看",
+      "done": false
+    },
+    {
+      "id": "shared-upload",
+      "name": "通用文件上传能力",
+      "done": false
+    },
+    {
+      "id": "shared-audit-fields",
+      "name": "通用审计字段落地",
+      "done": false
+    }
+  ]
+}

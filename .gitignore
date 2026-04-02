@@ -8,3 +8,7 @@ Desktop.ini
 .env
 .env.*
 *.local
+
+server-8080.log
+server-8080.out.log
+server-8080.err.log
